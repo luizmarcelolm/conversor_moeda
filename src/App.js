@@ -1,12 +1,13 @@
-import React from 'react';
-import Header from './Header/Header';
+import React, {Component} from 'react';
+import Conversor from "./Components/Conversor";
 
 
-function App (props) {
-  return (
-    <div>
-    <Header />
-    </div>
-  );
-};
+class App extends Component{
+  render(){
+        return (
+        <Conversor moedaA="USD" moedaB="BRL"></Conversor>
+        );
+    }    
+}
+
 export default App;
