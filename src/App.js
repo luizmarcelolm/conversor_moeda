@@ -5,7 +5,7 @@ import Conversor from "./Components/Conversor";
 class App extends Component{
   render(){
         return (
-        <Conversor moedaA="USD" moedaB="BRL"></Conversor>
+        <Conversor moedaB="BRL"></Conversor>
         );
     }    
 }
